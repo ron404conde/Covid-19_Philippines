@@ -13,7 +13,6 @@ def get_covid_cases():
         print("Deaths: ", json.dumps(data['deceased']))
         print("Active Cases: ", json.dumps(data['activeCases']))
 
-# call
 # main call
 if __name__ == "__main__":
     get_covid_cases()
